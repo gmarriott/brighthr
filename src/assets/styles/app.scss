@@ -1,0 +1,74 @@
+.app {
+    padding: 2.4rem 8rem 2.4rem 2.4rem;
+
+    &__header {
+      width: 100%;
+      text-align: center;
+    }
+
+    &__logo {
+      color: $white;
+      display: inline-block;
+    }
+
+    &__logo-image {
+      width: 17.8rem;
+      height: 2.2rem;
+    }
+
+    &__logo-txt {
+      font-size: 2rem;
+      color: $white;
+      font-weight: $regular;
+      font-family: $font-family;
+      text-transform: uppercase;
+      display: inline-block;
+      transform: translateX(-1.5rem);
+      letter-spacing: 0.15rem;
+      margin-top: 5rem;
+    }
+
+    &__body {
+      padding: 5.6rem;
+      @media (max-width: 800px) {
+         padding: 1.6rem;
+      }
+    }
+
+    &__main-image {
+      padding-top: 8.1rem;
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+    }
+
+    &__filters {
+      display: flex;
+      @media (max-width: 800px) {
+        flex-direction:column;
+      }
+    }
+
+    @media (max-width: $breakpoint-wide) {
+      &__main-image {
+        max-width: 40rem;
+      }
+    }
+
+    @media (max-width: $breakpoint-desktop) {
+      padding: 3.5rem 2.4rem 2.4rem;
+
+      &__main-image {
+        display: none;
+      }
+
+      &__logo-image {
+        width: 13rem;
+        height: 1.8rem;
+      }
+
+      &__logo-txt {
+        font-size: 1.6rem;
+      }
+    }
+  }

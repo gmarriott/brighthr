@@ -1,0 +1,79 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #0057ad;
+    height: 100%;
+    color: $font-color;
+    font-size: 1.4rem;
+    overflow-x: hidden;
+    margin: 0;
+    font-family: $font-family;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+figure {
+    margin: 0;
+}
+
+ol,
+ul {
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+
+    li {
+        list-style-type: none;
+    }
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+  select {
+    background-color: rgba(84, 84, 84, 0.9);
+    background-repeat: no-repeat;
+    background-position: center right 1.2rem;
+    background-size: 0.8rem;
+    border: none;
+    margin-right: 20px;
+    font-size: 1.6rem;
+    color: #fff;
+    font-family: "Brandon Grotesque",Arial,Helvetica,sans-serif;
+    padding: 1rem 2.8rem 1rem 1.6rem;
+    font-weight: 700;
+    -webkit-appearance: none;
+    appearance: none;
+    @media (max-width: 800px) {
+        margin-top: 10px;
+    }
+  }
+
+  .searchInput {
+    min-width: 200px;
+    margin-right: 20px;
+  }
